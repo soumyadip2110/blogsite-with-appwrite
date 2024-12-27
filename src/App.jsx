@@ -29,7 +29,6 @@ function App() {
 			<Header />
 			<main>
 				<Outlet/>
-				test
 			</main>
 			<Footer />
 		  </div>
