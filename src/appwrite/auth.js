@@ -16,7 +16,7 @@ export class AuthService{
         try {
             const userAccount = this.account.create(ID.unique(), email, password, name);
             if (userAccount){
-                this.login({email, password})
+                return this.login({email, password})
             } else {
                 return userAccount;
             }
